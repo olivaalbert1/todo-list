@@ -1,5 +1,6 @@
 import logo from './images/logo.png';
 import './App.css';
+import Task from './components/Task'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <img src={logo} className='my-logo' />
       </div>
       <div className='main-list-tasks'>
+        <Task text='learn React'></Task>
         <h1>My tasks</h1>
       </div>
     </div>
