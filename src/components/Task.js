@@ -1,7 +1,7 @@
 import React from "react";
 import '../style/Task.css'
 
-function Task ({text}) {
+function Task({ text }) {
     return (
         <div className="container-task">
             <div className="task-text">
