@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './images/logo.png';
 import './App.css';
-// import Task from './components/Task'
-import FormTask from './components/FormTask';
+import TaskList from './components/TaskList';
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
       </div>
       <div className='main-list-tasks'>
         <h1>My tasks</h1>
-        <FormTask></FormTask>
+        <TaskList />
       </div>
     </div>
   );
