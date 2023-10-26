@@ -10,8 +10,8 @@ function App() {
         <img src={logo} className='my-logo' alt='description' />
       </div>
       <div className='main-list-tasks'>
-        <Task text='learn React'></Task>
         <h1>My tasks</h1>
+        <Task text='learn React'></Task>
       </div>
     </div>
   );
