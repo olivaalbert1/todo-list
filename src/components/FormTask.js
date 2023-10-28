@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import '../style/FormTask.css'
+import '../style/FormTask.css';
+import { v4 as uuidv4 } from 'uuid' 
 
 function FormTask(props) {
 
@@ -13,11 +14,11 @@ function FormTask(props) {
         e.preventDefault();
 
         const newTask = {
-            id: 1234,
+            id: uuidv4(),
             text: input,
             completed: false
         }
-        console.log(newTask)
+
     }
 
     return (
